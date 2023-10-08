@@ -1,0 +1,61 @@
+/*  */
+
+body{
+    background-color: #150d1d;
+    color: #dfcefd;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    color: #dfcefd !important;
+    font-size: 1.6rem !important;
+    text-decoration: none;
+}
+
+a>span{
+    color: #dfcefd !important;
+}
+
+/* Base button styles */
+button {
+    background: transparent !important; /* Set a transparent background */
+    border: 2px solid rgba(255, 255, 255, 0.5) !important; /* Add a translucent white border */
+    color: #fff !important; /* Text color */
+    padding: 10px 20px !important; /* Adjust padding as needed */
+    font-size: 1.6rem !important; /* Adjust font size as needed */
+    cursor: pointer !important;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+  }
+  
+  /* Hover effect */
+button:hover {
+    background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent white background on hover */
+    border-color: rgba(255, 255, 255, 0.8) !important; /* Increase border opacity on hover */
+    color: #fff !important; /* Text color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important; /* Add a subtle glow on hover */
+}
+
+
+.glass-card{
+    background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent white background on hover */
+    border-color: rgba(255, 255, 255, 0.8) !important; /* Increase border opacity on hover */
+    color: #fff !important; /* Text color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important; /* Add a subtle glow on hover */   
+}
+
+
+
+.transprent{
+    background-color: rgba(21, 13, 29, 0.5)!important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid #2a2034 !important;
+    border-radius: 10px !important;
+    min-height: 90px !important;
+    margin: 0 auto !important;
+    z-index: 1030;
+    /* padding: 2vh 0 2vh 0 !important; */
+}
