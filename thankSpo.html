@@ -79,7 +79,7 @@
         </p>
         <hr>
         <p>If for some reson you were not able to submit your from pleas click the below button</p>
-        <button type="button" class="btn btn-dark btn-lg px-4 gap-3 mx-2 mt-1">Signup for Sports Week</button>
+        <button id="reset" type="button" class="btn btn-dark btn-lg px-4 gap-3 mx-2 mt-1">Signup for Sports Week</button>
     </div>
 
     <div class="transprent my-5">
@@ -101,7 +101,7 @@
         $(document).ready(function() {
            var name = localStorage.getItem("userName");
             $(".name").text(name);
-            $("button").click(function(){
+            $("#reset").click(function(){
                 localStorage.removeItem("userName");
                 window.location.href = "./sinSports.html";
             });
