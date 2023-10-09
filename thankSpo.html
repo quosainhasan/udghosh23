@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udghosh | Thank You</title>
+    <link rel="shortcut icon" href="./image/UdFavicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg transprent sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./image/UdFavicon.png" alt="Udghosh Logo" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color: #dfcefd;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1 text-wrap">Thank You</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">for</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">Signup</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><span></span></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <p>
+        In the realm of sports, where passions ignite,
+        Thank you <span></span> for joining us, it feels just right.
+        For registering and taking the leap,
+        You've joined a team where dreams run deep.
+        </p>
+        <p>
+        With every step, you've shown your grace,
+        As you prepare for the sports week's embrace.
+        Your commitment and spirit shine so bright,
+        In this sporting adventure, you're our guiding light.
+        </p>
+        <p>
+        The thrill of the games is drawing near,
+        And your presence is something we hold dear.
+        With each registration, our spirits rise,
+        In unity, we'll reach for the skies.
+        </p>
+        <p>
+        So thank you again, for your sports week devotion,
+        Together we'll create a memorable motion.
+        With teamwork and heart, we'll succeed,
+        In this grand adventure, where champions are freed.
+        </p>
+        <p>
+        Your enthusiasm fuels our joy,
+        For this sports week, we can't help but buoy.
+        With gratitude and excitement, our hearts beat strong,
+        In your name, we sing this grateful song.
+        </p>
+        <p>
+        Thank you for being a part of our sports week delight,
+        Together, we'll make it an incredible sight.
+        With camaraderie and sportsmanship, we'll soar,
+        As we embark on this sporting journey once more.
+        </p>
+        <hr>
+        <p>If for some reson you were not able to submit your from pleas click the below button</p>
+        <button type="button" class="btn btn-dark btn-lg px-4 gap-3 mx-2 mt-1">Signup for Sports Week</button>
+    </div>
+
+    <div class="transprent my-5">
+        <div class="container">
+          <footer class="py-3 mt-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+            <p class="text-center text-white">© 2023 Udghosh</p>
+            <p class="text-center text-white">Hand Crafted with ❤ by <a class="quo" href="https://quosainhasan.github.io/cv/" target="_blank" rel="noopener noreferrer">Quosain Hasan</a></p>
+          </footer>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+           var name = localStorage.getItem("userName");
+            $("span").text(name);
+            $("button").click(function(){
+                localStorage.removeItem("userName");
+                window.location.href = "./sinSports.html";
+            });
+        });
+    </script>
+</body>
+</html>

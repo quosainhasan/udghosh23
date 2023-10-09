@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udghosh | Thank You</title>
+    <link rel="shortcut icon" href="./image/UdFavicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg transprent sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./image/UdFavicon.png" alt="Udghosh Logo" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color: #dfcefd;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1 text-wrap">Thank You</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">for</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">Signup</h1>
+              <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><span></span></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <p>
+            Thank you, <span></span>, for sharing your artistic flair,
+            In our cultural programs, you're beyond compare.
+            You represent your departmen with grace and might,
+            Together we'll shine, like stars in the night.
+            </p>
+            <p>
+            As you embark on this creative quest,
+            Know you're valued and treasured, among the best.
+            In each program you choose, in every step you take,
+            You'll showcase your talent, make no mistake.
+            </p>
+    
+            <p>
+            Remember, you're more than just an individual,
+            You're part of a team, a cultural ritual.
+            With team spirit and unity, we'll reach our goal,
+            Creating memories and stories to be told.
+            </p>
+            <p>
+            So, <span></span>, once again, a heartfelt thank you,
+            For joining our cultural crew, as we pursue
+            The arts and talents that make us whole,
+            Together, we'll achieve our ultimate goal!
+        </p>
+        <hr>
+        <p>If for some reson you were not able to submit your from pleas click the below button</p>
+        <button type="button" class="btn btn-dark btn-lg px-4 gap-3 mx-2 mt-1">Signup for Culture fest</button>
+    </div>
+
+    <div class="transprent my-5">
+        <div class="container">
+          <footer class="py-3 mt-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+            <p class="text-center text-white">© 2023 Udghosh</p>
+            <p class="text-center text-white">Hand Crafted with ❤ by <a class="quo" href="https://quosainhasan.github.io/cv/" target="_blank" rel="noopener noreferrer">Quosain Hasan</a></p>
+          </footer>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+           var name = localStorage.getItem("userEmail");
+            $("span").text(name);
+            $("button").click(function(){
+                localStorage.removeItem("userEmail");
+                window.location.href = "./sinCultural.html";
+            });
+        });
+    </script>
+</body>
+</html>
