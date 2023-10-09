@@ -42,7 +42,7 @@
     </div>
     <div class="container my-5">
         <p>
-            Thank you, <span></span>, for sharing your artistic flair,
+            Thank you, <span class="name"></span>, for sharing your artistic flair,
             In our cultural programs, you're beyond compare.
             You represent your departmen with grace and might,
             Together we'll shine, like stars in the night.
@@ -61,7 +61,7 @@
             Creating memories and stories to be told.
             </p>
             <p>
-            So, <span></span>, once again, a heartfelt thank you,
+            So, <span class="name"></span>, once again, a heartfelt thank you,
             For joining our cultural crew, as we pursue
             The arts and talents that make us whole,
             Together, we'll achieve our ultimate goal!
@@ -84,11 +84,12 @@
         </div>
     </div>
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
            var name = localStorage.getItem("userEmail");
-            $("span").text(name);
+            $(".name").text(name);
             $("button").click(function(){
                 localStorage.removeItem("userEmail");
                 window.location.href = "./sinCultural.html";
