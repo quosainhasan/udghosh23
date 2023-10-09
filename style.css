@@ -10,6 +10,22 @@ h1,h2,h3,h4,h5,h6,p,a{
     font-weight: 400;
 }
 
+h1{
+    font-size: 5.9rem !important;
+}
+
+h2{
+    font-size: 3.9rem !important;
+}
+
+p{
+    font-size: 1.5rem !important;
+}
+
+.hehe{
+    font-size: 1.9rem !important;
+}
+
 a{
     color: #dfcefd !important;
     font-size: 1.6rem !important;
@@ -25,11 +41,10 @@ button {
     background: transparent !important; /* Set a transparent background */
     border: 2px solid rgba(255, 255, 255, 0.5) !important; /* Add a translucent white border */
     color: #fff !important; /* Text color */
-    padding: 10px 20px !important; /* Adjust padding as needed */
     font-size: 1.6rem !important; /* Adjust font size as needed */
     cursor: pointer !important;
     transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
-  }
+}
   
   /* Hover effect */
 button:hover {
