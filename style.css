@@ -54,6 +54,22 @@ button:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important; /* Add a subtle glow on hover */
 }
 
+.button {
+    background: transparent !important; /* Set a transparent background */
+    border: 2px solid rgba(255, 255, 255, 0.5) !important; /* Add a translucent white border */
+    color: #fff !important; /* Text color */
+    font-size: 1.6rem !important; /* Adjust font size as needed */
+    cursor: pointer !important;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+  
+  /* Hover effect */
+.button:hover {
+    background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent white background on hover */
+    border-color: rgba(255, 255, 255, 0.8) !important; /* Increase border opacity on hover */
+    color: #fff !important; /* Text color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important; /* Add a subtle glow on hover */
+}
 
 .glass-card{
     background: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent white background on hover */
